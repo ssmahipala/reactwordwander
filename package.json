@@ -6,8 +6,8 @@
     "build": "webpack"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "prop-types": "^15.7.0"
+    "prop-types": "^15.7.0",
+    "react": "^16.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -32,15 +32,15 @@
   "description": "A React component for dynamic word wandering effects",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-word-wander"
+    "url": "https://github.com/ssmahipala/reactwordwander"
   },
   "keywords": [
     "react",
     "component",
     "word-wander"
   ],
-  "author": "Your Name",
+  "author": "Sai Sumanth Mahipala",
   "bugs": {
-    "url": "https://github.com/yourusername/react-word-wander/issues"
+    "url": "https://github.com/ssmahipala/reactwordwander"
   }
 }

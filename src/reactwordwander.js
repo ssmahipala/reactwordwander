@@ -52,17 +52,15 @@ const ReactWordWander = ({
   }, [text]); // Add text as a dependency to update the effect when the text prop changes
 
   const dynamicStyle = {
-    fontFamily: fontFamily || "Space Mono",
+    fontFamily: fontFamily || "monospace",
     fontSize: fontSize || "clamp(3rem, 10vw, 5rem)",
     color: textColor || "#000000",
     backgroundColor: backgroundColor || "transparent",
     whiteSpace: "nowrap",
     padding: "1rem", // Adjust padding as needed
     borderRadius: "clamp(0.4rem, 0.75vw, 1rem)",
-    position: "absolute",
     left: "50%",
     top: "50%",
-    transform: "translate(-50%, -50%)",
     zIndex: 3,
   };
 
